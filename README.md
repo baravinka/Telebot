@@ -3,13 +3,13 @@
 Testing
 @zadasha_bot
 Чтобы запустить бота,необходимо набрать /start
-![Alt text](https://github.com/baravinka/Telegram_bot/docs/image1.PNG)
+![Alt text](https://github.com/baravinka/Telebot/documentation/image1.PNG)
 Затем,выбрать знак зодиака.
 
-![Alt text](https://github.com/baravinka/Telegram_bot/docs/image2.PNG)
+![Alt text](https://github.com/baravinka/Telebot/documentation/image2.PNG)
 
 Получить гороскоп
-![Alt text](https://github.com/baravinka/Telegram_bot/docs/image3.PNG)
+![Alt text](https://github.com/baravinka/Telebot/documentation/image3.PNG)
 
 # computer language
 
