@@ -1,7 +1,10 @@
 # Telegram-bot
 Целью проекта является разработка Телеграм бота,который будет показывать гороскоп на день.
-Testing
+
+#Testing
+
 @zadasha_bot
+
 Чтобы запустить бота,необходимо набрать /start
 
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image1.PNG)
