@@ -1,11 +1,11 @@
-import random
 import telebot
 bot = telebot.TeleBot('1323964128:AAHAluGjcuNeAGGpiBEOdWOYvx-46l1Qqyc')
 import sqlite3
-conn = sqlite3.connect('C:\\Users\\Анастасия\\Desktop\\бт\\bot.db')
+
+conn = sqlite3.connect('//home//Anastasia56547657//bot1.db')
 cursor = conn.cursor()
 from telebot import types
-from sqlite3 import Error
+
 @bot.message_handler(commands=['start'])
 def start(message):
     bot.send_message(message.chat.id,
@@ -56,19 +56,19 @@ def get_text_messages(message):
 
 @bot.callback_query_handler(func=lambda call: True)
 
-   
+
 def callback_worker(call):
-   
+
     data = call.data.split(" ")
     command = data[0]
 
     sign = data[1]
-    
+
     if command == "zodiac":
-     with sqlite3.connect('C:\\Users\\Анастасия\\Desktop\\бт\\bot.db') as connection:
+     with sqlite3.connect('//home//Anastasia56547657//bot1.db') as connection:
         cursor = connection.cursor()
         cursor.execute("SELECT prediction FROM horoscope WHERE `zodiac sign` = (?)", [sign])
-                                                                            
+
         data = cursor.fetchone()
         bot.send_message(call.from_user.id, data)
         if data is None:
@@ -76,6 +76,6 @@ def callback_worker(call):
         else:
             return data
 
-   
+
 bot.polling(none_stop=True)
 conn.close()
