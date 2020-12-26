@@ -1,3 +1,5 @@
+- bot.py
+- CHANGELOG.md
 - Merge branch 'main' of https://github.com/baravinka/Telebot into main
 - Changelog
 - change
