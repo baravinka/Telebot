@@ -2,7 +2,7 @@ import telebot
 bot = telebot.TeleBot('1323964128:AAHAluGjcuNeAGGpiBEOdWOYvx-46l1Qqyc')
 import sqlite3
 
-conn = sqlite3.connect('//home//Anastasia56547657//bot1.db')
+conn = sqlite3.connect('https://www.pythonanywhere.com//user//Anastasia56547657//files//home//Anastasia56547657//bot1.db')
 cursor = conn.cursor()
 from telebot import types
 
