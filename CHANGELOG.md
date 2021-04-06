@@ -9,3 +9,4 @@ April 2021:
 
 Completion of the project:
 - Adding two buttons with their own functionality
+- changing the documentation and adding images
