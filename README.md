@@ -8,7 +8,7 @@
 
 Чтобы запустить бота,необходимо набрать /start
 
-![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image1.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image2.PNG)
 
 Затем,выбрать одну из кнопок.
 
