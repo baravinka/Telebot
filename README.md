@@ -4,17 +4,25 @@
 # Testing
 В телеграмме бота можно добавить: @zadasha_bot
 
-Чтобы запустить бота,необходимо набрать /start
-
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image1.PNG)
 
-Затем,выбрать знак зодиака.
+Чтобы запустить бота,необходимо набрать /start
 
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image2.PNG)
 
-Получить гороскоп
+Затем,выбрать одну из кнопок.
+
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image2.PNG)
+
+Выберем первую кнопку:"По знаку зодиака".Далее необходимо выбрать знак зодиака и получить гороскоп.
 
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image3.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image4.PNG)
+
+Выберем вторую кнопку:"По дате рождения".Далее необходимо выбрать дату рождения и получить гороскоп.
+
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image5.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image6.PNG)
 
 # Computer language
 
@@ -43,15 +51,15 @@ Python — это высокоуровневый язык программиро
 В проекте было сделано:
 
 1.Создание телеграмм бота на языке Python
-
 2.Создание БД с гороскопом
-
 3.Обьединение БД с телеграмм ботом
+4.Создание двух кнопок
+
 
 В проекте будет сделано:
 
 1.Исправление ошибок
-2.Добавление возможности определения своего знака зодиака
-3.Добавление других различных гороскопов.
+2.Тестирование.
+
 
 
