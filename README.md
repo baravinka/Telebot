@@ -17,7 +17,7 @@
 Выберем первую кнопку:"По знаку зодиака".Далее необходимо выбрать знак зодиака и получить гороскоп.
 
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image3.PNG)
-![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image4.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image7.PNG)
 
 Выберем вторую кнопку:"По дате рождения".Далее необходимо выбрать дату рождения и получить гороскоп.
 
