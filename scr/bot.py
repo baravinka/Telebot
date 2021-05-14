@@ -2,13 +2,14 @@ import telebot
 bot = telebot.TeleBot('1323964128:AAHAluGjcuNeAGGpiBEOdWOYvx-46l1Qqyc')
 import sqlite3
 
-conn = sqlite3.connect('//home//Anastasia56547657//bot1.db')
+conn = sqlite3.connect('//home//Anastasia56547657//bot.db')
 cursor = conn.cursor()
 
 from telebot import types
 
 keyboard1 = telebot.types.ReplyKeyboardMarkup(True, True)
 keyboard1.row('по знаку зодиака', 'по дате рождения')
+
 
 
 
@@ -75,21 +76,25 @@ def send_text(message):
         keyboard.add(key_ryby)
         bot.send_message(message.from_user.id, text='Выбери свой знак зодиака', reply_markup=keyboard)
 
-@bot.callback_query_handler(func=lambda call: True)
+@bot.callback_query_handler(func = lambda call: True)
 def callback_worker(call):
-            data = call.data.split(" ")
-            command = data[0]
-            sign = data[1]
-            if command == "zodiac":
-                with sqlite3.connect('//home//Anastasia56547657//bot1.db') as connection:
-                        cursor = connection.cursor()
-                        cursor.execute("SELECT prediction FROM horoscope WHERE `zodiac sign` = (?)", [sign])
-                        data = cursor.fetchone()
-                        bot.send_message(call.from_user.id, data)
-                        if data is None:
-                            return False
-                        else:
-                            return data
+    data = call.data.split(" ")
+    command = data[0]
+    sign = data[1]
+    if command == "zodiac":
+                with sqlite3.connect('//home//Anastasia56547657//bot.db') as connection:
+                    cursor = connection.cursor()
+                    cursor.execute("SELECT prediction FROM horoscope WHERE `zodiac sign` = (?)", [sign])
+                    data = cursor.fetchone()
+                    bot.send_message(call.from_user.id, 'Гороскоп на день')
+                    bot.send_message(call.from_user.id, data)
+
+                    cursor.execute("SELECT predictions FROM horoscope WHERE `zodiac sign` = (?)", [sign])
+                    data = cursor.fetchone()
+                    bot.send_message(call.from_user.id, 'Гороскоп на год')
+                    bot.send_message(call.from_user.id, data)
+
+
 
 bot.polling(none_stop=True)
 conn.close()
