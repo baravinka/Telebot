@@ -37,11 +37,11 @@
 Выберем пятую кнопку:"Тибетский".Далее необходимо выбрать год рождения и получить гороскоп.
 
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image10.PNG)
-![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image12.PNG
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image12.PNG)
 
 Если нажать на кнопку,откроется список видов гороскопа.
 
-![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image11.PNG
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image11.PNG)
 
 # Computer language
 
