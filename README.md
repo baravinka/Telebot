@@ -8,11 +8,11 @@
 
 Чтобы запустить бота,необходимо набрать /start
 
-![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image2.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image22.PNG)
 
 Затем,выбрать одну из кнопок.
 
-![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image2.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image22.PNG)
 
 Выберем первую кнопку:"Зодиак".Далее необходимо выбрать знак зодиака и получить гороскоп.
 
