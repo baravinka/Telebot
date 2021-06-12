@@ -4,7 +4,7 @@
 # Testing
 В телеграмме бота можно добавить: @zadasha_bot
 
-![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image1.PNG)
 
 Чтобы запустить бота,необходимо набрать /start
 
@@ -14,15 +14,34 @@
 
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image2.PNG)
 
-Выберем первую кнопку:"По знаку зодиака".Далее необходимо выбрать знак зодиака и получить гороскоп.
+Выберем первую кнопку:"Зодиак".Далее необходимо выбрать знак зодиака и получить гороскоп.
 
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image3.PNG)
-![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image6.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image4.PNG)
 
-Выберем вторую кнопку:"По дате рождения".Далее необходимо выбрать дату рождения и получить гороскоп.
+Выберем вторую кнопку:"Кельский".Далее необходимо выбрать дату рождения и получить гороскоп.
 
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image5.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image6.PNG)
+
+Выберем третью кнопку:"Греческий".Далее необходимо выбрать дату рождения и получить гороскоп.
+
 ![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image7.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image13.PNG)
+
+Выберем четвертую кнопку:"Восточный".Далее необходимо выбрать год рождения и получить гороскоп.
+
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image8.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image9.PNG)
+
+Выберем пятую кнопку:"Тибетский".Далее необходимо выбрать год рождения и получить гороскоп.
+
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image10.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image12.PNG
+
+Если нажать на кнопку,откроется список видов гороскопа.
+
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image11.PNG
 
 # Computer language
 
