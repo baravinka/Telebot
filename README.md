@@ -41,7 +41,7 @@
 
 Если нажать на кнопку,откроется список видов гороскопа.
 
-![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image11.PNG)
+![Alt text](https://github.com/baravinka/Telebot/blob/main/documentation/image14.PNG)
 
 # Computer language
 
