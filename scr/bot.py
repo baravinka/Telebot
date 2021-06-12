@@ -8,8 +8,9 @@ cursor = conn.cursor()
 from telebot import types
 
 
-keyboard1 = telebot.types.ReplyKeyboardMarkup(True, True)
-keyboard1.row('зодиак','кельский','греческий', 'восточный','тибетский')
+keyboard1 = telebot.types.ReplyKeyboardMarkup(True,True)
+keyboard1.row('греческий гороскоп','восточный гороскоп','тибетский гороскоп')
+keyboard1.row('зодиакальный гороскоп',' кельский гороскоп')
 
 
 @bot.message_handler(commands=['start'])
@@ -18,7 +19,7 @@ def start_message(message):
 
 @bot.message_handler(content_types=['text'])
 def send_text(message):
-    if message.text.lower() == 'зодиак ':
+    if message.text.lower() == 'зодиакальный гороскоп':
         keyboard = types.InlineKeyboardMarkup()
         key_oven = types.InlineKeyboardButton(text='21.03-20.04',  callback_data='zodiac Овен')
         keyboard.add(key_oven)
@@ -46,7 +47,7 @@ def send_text(message):
         keyboard.add(key_ryby)
         bot.send_message(message.from_user.id, text='Выбери свою дату рождения', reply_markup=keyboard)
 
-    elif message.text.lower() == 'кельский':
+    elif message.text.lower() == 'кельский гороскоп':
         keyboard = types.InlineKeyboardMarkup()
         key_olen = types.InlineKeyboardButton(text='24.12-20.01',  callback_data='zodiac Олень')
         keyboard.add(key_olen)
@@ -76,7 +77,7 @@ def send_text(message):
         keyboard.add(key_sokol)
         bot.send_message(message.from_user.id, text='Выбери свою дату рождения', reply_markup=keyboard)
 
-    elif message.text.lower() == 'греческий':
+    elif message.text.lower() == 'греческий гороскоп':
         keyboard = types.InlineKeyboardMarkup()
         key_afina = types.InlineKeyboardButton(text='21.03-20.04',  callback_data='zodiac Афина')
         keyboard.add(key_afina)
@@ -104,7 +105,7 @@ def send_text(message):
         keyboard.add(key_pocedon)
         bot.send_message(message.from_user.id, text='Выбери свою дату рождения', reply_markup=keyboard)
 
-    elif message.text.lower() == 'тибетский':
+    elif message.text.lower() == 'тибетский гороскоп':
         keyboard = types.InlineKeyboardMarkup()
         key_zveu = types.InlineKeyboardButton(text='1940, 1952, 1964, 1976,1988, 2000, 2012',  callback_data='zodiac Змей')
         keyboard.add(key_zveu)
@@ -132,7 +133,7 @@ def send_text(message):
         keyboard.add(key_monaph)
         bot.send_message(message.from_user.id, text='Выбери свой год рождения', reply_markup=keyboard)
 
-    elif message.text.lower() == 'восточный':
+    elif message.text.lower() == 'восточный гороскоп':
         keyboard = types.InlineKeyboardMarkup()
         key_drakon = types.InlineKeyboardButton(text='1940, 1952, 1964, 1976,1988, 2000, 2012',  callback_data='zodiac Дракон')
         keyboard.add(key_drakon)
